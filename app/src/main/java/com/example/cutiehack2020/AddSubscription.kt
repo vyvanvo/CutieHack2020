@@ -10,7 +10,7 @@ class AddSubscription : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_subscription)
 
-        val button = findViewById<Button>(R.id.Button)
+        val button = findViewById<Button>(R.id.btn_add_sub)
         button.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
