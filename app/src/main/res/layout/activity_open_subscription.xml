@@ -12,7 +12,7 @@
         android:layout_height="80dp"
         android:layout_marginEnd="1dp"
         android:layout_marginRight="1dp"
-        android:text="TextView"
+        android:text="@string/subscription_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,6 +23,7 @@
         android:layout_height="70dp"
         android:layout_marginBottom="64dp"
         android:background="@color/colorRed"
+        android:fontFamily="@font/baloo"
         android:text="@string/btn_rm_subscription"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
