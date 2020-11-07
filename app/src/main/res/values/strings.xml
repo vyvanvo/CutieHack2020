@@ -2,4 +2,5 @@
     <string name="app_name">Re:member</string>
     <string name="btn_add">+</string>
     <string name="app_title">My Subscriptions</string>
+    <string name="btn_rm_subscription">Remove Subscription</string>
 </resources>
