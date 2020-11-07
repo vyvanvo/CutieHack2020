@@ -7,44 +7,49 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.051" />
+        android:id="@+id/app_title"
+        android:layout_width="410dp"
+        android:layout_height="80dp"
+        android:background="#A4E8F2"
+        android:fontFamily="@font/baloo"
+        android:text="@string/app_title"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="Button"
+        android:id="@+id/btn_add"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/circle"
+        android:fontFamily="@font/baloo"
+        android:text="@string/btn_add"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.904"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
     <ScrollView
+        android:id="@+id/scrollView2"
         android:layout_width="409dp"
         android:layout_height="577dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
-        android:layout_marginTop="19dp"
         android:layout_marginEnd="1dp"
         android:layout_marginRight="1dp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_add"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title">
+        app:layout_constraintTop_toBottomOf="@+id/app_title">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
