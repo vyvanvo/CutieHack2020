@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">CutieHack2020</string>
+    <string name="app_name">Re:member</string>
+    <string name="btn_add">+</string>
+    <string name="app_title">My Subscriptions</string>
     <string name="subscription_name">Subscription Name</string>
     <string name="subscription_monthly_cost">Monthly Cost</string>
     <string name="subscription_renewal_start">Billing Date</string>
