@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val button = findViewById<Button>(R.id.Button)
+        val button = findViewById<Button>(R.id.btn_add)
         button.setOnClickListener{
             val intent = Intent(this, AddSubscription::class.java)
             startActivity(intent)
