@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         val button = findViewById<Button>(R.id.btn_add)
         button.setOnClickListener{
             val intent = Intent(this, AddSubscription::class.java)
+
             startActivity(intent)
         }
     }
